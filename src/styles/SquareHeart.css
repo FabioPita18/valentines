@@ -1,0 +1,46 @@
+.heart-container {
+  position: relative;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heart-container ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  height: 22px;
+}
+
+.square {
+  width: 20px;
+  height: 20px;
+  margin: 1px;
+  transition: all 0.4s ease-in-out;
+}
+
+/* Outline squares - always black */
+.square.outline {
+  background-color: black;
+}
+
+/* Inner squares - will get color from inline style */
+.square.filled {
+  transform: scale(1);
+}
+
+/* Empty squares - invisible */
+.square.empty {
+  opacity: 0;
+}
+
+/* Inner squares that haven't been filled yet */
+.square.empty-inner {
+  background-color: transparent;
+  transform: scale(0.8);
+}
+
+/* Remove all row-specific colors since we want all squares black */ 
