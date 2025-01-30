@@ -112,6 +112,12 @@ const Proposal = () => {
             <div className="photo-frame">
               <img src={process.env.PUBLIC_URL + "/images/photo2.jpeg"} alt="Us 2" />
             </div>
+            <div className="photo-frame">
+              <img src={process.env.PUBLIC_URL + "/images/photo5.jpeg"} alt="Us 5" />
+            </div>
+            <div className="photo-frame">
+              <img src={process.env.PUBLIC_URL + "/images/photo6.jpg"} alt="Us 6" />
+            </div>
           </div>
         )}
 
@@ -187,6 +193,9 @@ const Proposal = () => {
             </div>
             <div className="photo-frame">
               <img src={process.env.PUBLIC_URL + "/images/photo4.jpeg"} alt="Us 4" />
+            </div>
+            <div className="photo-frame">
+              <img src={process.env.PUBLIC_URL + "/images/photo7.jpg"} alt="Us 7" />
             </div>
           </div>
         )}
