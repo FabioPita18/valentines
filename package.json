@@ -2,6 +2,7 @@
   "name": "valentines-proposal",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://fabiopita18.github.io/valentines",
   "dependencies": {
     "cra-template": "1.2.0",
     "react": "^19.0.0",
@@ -36,7 +37,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.3.0"
-  },
-  "homepage": "https://fabiopita18.github.io/valentines"
+    "gh-pages": "^6.1.1"
+  }
 }
